@@ -42,6 +42,12 @@ All in the flask application.
 
     pip install -r requirements.txt
 
+  For tor proxy you'll need to enable or start the service:
+
+    systemctl start tor
+
+Inside linux.
+
 Result: You will receive a collection of unobfuscated results, namely links to where that face was found.
 
 
